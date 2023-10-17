@@ -34,18 +34,33 @@ We're interested in exploring the possibility of Company B becoming a sponsor fo
 # Most Used Words:
 
 **Company**: 4
+
 **company**: 3
+
 **industry**: 3
+
 **opportunity**: 3
+
 **success**: 2
+
 **work**: 2
+
 **believe**: 2
+
 **collaboration**: 2
+
 **interested**: 2
+
 **B**: 2
+
 **projects**: 2
+
 **partnership**: 2
+
 **sponsorship**: 2
+
 **discussing**: 2
+
 **open**: 2 
-**...**: 1
+
+**...** : 1
