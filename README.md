@@ -6,6 +6,7 @@ The project is to create an app to transform voice message into a written notifi
 
 Text summarization is one of the most known NLP problem and it will be tackled in this section. The first simple approach is to do an extractive summarization. 
 
+The algorithms can be find in the `extraction_naive.py` file. 
 We will be working with an example to try understanding the mechanisms of this type of text summarization. Other examples are available in the corresponding folder `example`. Let's say a person called Sarah sends an audio to her friend Michael. Here is the transcription of the audio to analyze:  
 
 ```
