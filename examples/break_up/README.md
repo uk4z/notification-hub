@@ -19,10 +19,18 @@ You know how close we were, and this just feels like a huge void in my life righ
 # Most used words:
 
  **know**: 4
+ 
  **Michael**: 3  
+ 
  **need**: 3 
+ 
  **friend**: 3  
+ 
  **hope**: 2  
+ 
  **miss**: 2
+ 
  **voice**: 2
+ 
  **...***: 1 
+ 
