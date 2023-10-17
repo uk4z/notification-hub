@@ -114,8 +114,8 @@ text = open_file()
 doc = nlp(text)
 
 
-
-for i in range(1, 60, 5): 
+# Call the functions here
+""" for i in range(1, 60, 5): 
     words = most_used_words(doc, i)
     weighted_words = normalization(words)
     weighted_sents = weighted_sentences(doc, weighted_words, 3)
@@ -123,4 +123,4 @@ for i in range(1, 60, 5):
 
     print("Considering " +str(i) + " words")
     print(short_version)
-    print(most_used_words(doc, 100))
+    print(most_used_words(doc, 100)) """
