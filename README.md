@@ -48,3 +48,6 @@ You know how close we were, and this just feels like a huge void in my life righ
 ```
 
 We can see a slight difference if we only take one word into account. Here the downside is limited but we can imagine that we would lose too much information by taking one word into account. On the other hand, taking every words might not be the most efficient in terms of space complexity. Therefore, we can add a criteria to select words with a total weight higher than *0.5*. 
+
+
+Another approach is to do an abstractive summarization. To tryout different models before downloading them, go to https://huggingface.co/models. You can train models upon datasets available here: https://huggingface.co/datasets
