@@ -1,22 +1,6 @@
 import spacy
 from spacy.lang.en.stop_words import STOP_WORDS
-from spacy import displacy
 from string import punctuation
-
-def data_representation(filename):
-    with open(filename, "r") as f:
-        text = f.read()
-
-    doc = nlp(text)
-    sentence = list(doc.sents)[8]
-
-    with open("part_of_speech_tagging.html", "w") as f:
-        f.write(displacy.render(sentence, style="dep"))
-
-    with open("entity_recognition.html", "w") as f:
-        f.write(displacy.render(doc, style="ent"))
-    
-    return 
 
 def open_file(): 
     with open("examples/break_up/input.txt", "r") as f:
