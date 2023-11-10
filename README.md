@@ -151,6 +151,7 @@ This type of summarization is handled with artificial intelligence models. We wi
 We will be working with *sshleifer/distilbart-cnn-12-6* which is a lighter version of meta's model *bart* which is a fine model to handle text summarization. In order to make conversationnal summaries, we will train it with the `samsum` dataset. It is organised as follow: 
 
 | id | dialogue | summary |
+| ------------- | ------------- | ------------- |
 | 13818513 | Amanda: I baked cookies. Do you want some? Jerry: Sure! Amanda: I'll bring you tomorrow :-) | Amanda baked cookies and will bring Jerry some tomorrow. |
 | 13728867 | Olivia: Who are you voting for in this election? Oliver: Liberals as always. Olivia: Me too!! Oliver: Great | Olivia and Olivier are voting for liberals in this election. |
 | ... | ... | ... |
