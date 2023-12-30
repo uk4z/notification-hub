@@ -13,7 +13,8 @@ The repository is organised as follow:
 - The `statistic.ipybn` file is a frame of the `main` notebook. It contains code to analyse datasets and operate a statistical analysis.
 - The `training.ipybn` file is a frame of the `main` notebook. It contains code to train the model and push it to HuggingFace.
 
-The pipeline can be used directly on HuggingFace's inference API: https://huggingface.co/uk4zor/notification-hub
+The pipeline can be used directly on HuggingFace's inference API: https://huggingface.co/uk4zor/notification-hub.
+Let's keep in mind that the model has been train on conversational dialogues. We advise to use the SAMSum dialogues to get the correct format. 
 
 Or you can use the `transformer` library:
 
@@ -23,4 +24,6 @@ from transformers import pipeline
 
 pipe = pipeline("summarization", model="uk4zor/notification-hub")
 ```
+
+
 
