@@ -25,5 +25,6 @@ from transformers import pipeline
 pipe = pipeline("summarization", model="uk4zor/notification-hub")
 ```
 
+## Improvements
 
-
+This repository contains the implementation of only a part of the whole feature. We can assume that in order to implement it completely, we would have to use a speech-to-text API to handle vocal inputs. Furthermore, we can assume that the summarization performance would improve using top-notch model such as GPT-4 however this is not necessary for our academic purpose. 
