@@ -1,0 +1,6 @@
+rouge_score
+transformers
+torch
+accelerate
+datasets
+py7zr
